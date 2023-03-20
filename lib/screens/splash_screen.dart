@@ -23,7 +23,13 @@ class _SplashScreenState extends State<SplashScreen> {
         width: double.infinity,
         color: Colors.teal,
         child: const Center(
-          child: Text('Dice Rolling App'),
+          child: Text('Dice Rolling App',
+              style: TextStyle(
+                fontFamily: 'Poppins',
+                fontWeight: FontWeight.w900,
+                color: Colors.white,
+                fontSize: 24,
+              )),
         ),
       ),
     );

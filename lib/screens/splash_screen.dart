@@ -30,6 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Spacer(flex: 3),
+            Image.asset('assets/images/dice.png', height: 200, width: 200),
             const Text('Dice Rolling App', style: mainHeader),
             const Spacer(flex: 1),
             CircularProgressIndicator(color: Colors.white.withOpacity(0.2)),
